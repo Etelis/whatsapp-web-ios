@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Notifications</string>
+			<key>FooterText</key>
+			<string>Keeps WhatsApp connected after you leave the app so new messages still notify you. Plays inaudible audio to stay awake, which uses more battery and may pause music from other apps. Tip: shake the phone inside the app for more options.</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Stay connected in background</string>
+			<key>Key</key>
+			<string>keepAlive</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
